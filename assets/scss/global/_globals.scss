@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  transition: color .2s;
+}
+
+hr {
+  border-bottom-color: $light-gray;
+}
+
+body {
+  background: lighten($light-gray, 6%);
+}

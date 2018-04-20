@@ -1,0 +1,13 @@
+@mixin hero-shape($color, $width, $left, $alpha: .3) {
+  &:before {
+    content: '';
+    position: absolute;
+    width: $width;
+    height: 100%;
+    left: $left;
+    -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+    background-color: rgba($color, $alpha);
+  }
+}

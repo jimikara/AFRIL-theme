@@ -1,0 +1,47 @@
+.news-item, #vsel .vsel-content {
+  border-top: 12px solid $brand-fourth;
+  padding: rem-calc(10);
+  background: $light-gray;
+  margin-bottom: 20px;
+  position: relative;
+
+  @include clearfix;
+
+  > .item-header {
+    h3 {
+      display: inline-block;
+      margin: 0;
+      vertical-align: middle;
+    }
+    strong {
+      text-align: right;
+    }
+  }
+
+  .button {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .event-date {
+    background: $brand-fifth;
+    color: $white;
+    font-weight: 700;
+    padding: 5px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+  }
+
+  p:last-of-type {
+    margin-bottom: 70px;
+  }
+}
+
+.news-item-card-image-container {
+  max-width: 200px;
+  display: inline-block;
+    float: right;
+    margin-left: 10px;
+}

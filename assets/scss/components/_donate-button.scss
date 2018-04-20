@@ -1,0 +1,48 @@
+.donate-button {
+  right: 3.5%;
+  border-radius: 5px;
+  background: $brand-fourth;
+  margin: 5px 0 0 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+
+  &:hover {
+    background: darken($brand-fourth, 15%);
+  }
+}
+
+&.donate-primary {
+  > a {
+    background: $brand-fourth !important;
+    color: $white !important;
+
+    &:hover {
+      background: darken($brand-fourth, 15%);
+    }
+  }
+}
+
+.donate-fixed {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  font-weight: 500;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+
+  @include mui-hinge(
+  $state: in,
+  $from: top,
+  $duration: 0.175s,
+  $timing: easeInOut
+  );
+
+  @include mui-hinge(
+    $state: out,
+    $from: top,
+    $duration: 0.075s,
+    $timing: easeInOut
+  );
+}
+

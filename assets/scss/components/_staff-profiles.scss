@@ -1,0 +1,16 @@
+.staff-profile {
+  background: $light-gray;
+  padding: rem-calc(16px) rem-calc(20px) rem-calc(24px) rem-calc(20px);
+  margin-bottom: rem-calc(22px);
+  border-top: 12px solid $brand-fifth;
+
+  .profile-pic {
+    margin: 0 0 10px 10px;
+    float: right;
+    max-width: 180px;
+
+    @include breakpoint(medium) {
+      max-width: 220px;
+    }
+  }
+}

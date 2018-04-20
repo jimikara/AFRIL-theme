@@ -1,0 +1,33 @@
+.intro-col {
+  margin: 15px 0 20px;
+  @include breakpoint(large) {
+    margin: 35px 0 65px;
+  }
+}
+
+.afril-icon {
+  width: 70px;
+  height: 70px;
+  display: none;
+  @include breakpoint(medium) {
+    display: inline-block;
+  }
+}
+
+.intro-col-1 {
+  svg {
+    fill: $brand-secondary;
+  }
+}
+
+.intro-col-2 {
+  svg {
+    fill: $brand-primary;
+  }
+}
+
+.intro-col-3 {
+  svg {
+    fill: $brand-fourth;
+  }
+}

@@ -1,0 +1,21 @@
+.mc4wp-response {
+  margin-top: 10px;
+
+  .mc4wp-alert {
+    padding: 10px;
+    font-weight: 700;
+    &.mc4wp-success {
+      background: $brand-third;
+      color: $black;
+    }
+
+    &.mc4wp-error {
+      background: $brand-fourth;
+      color: $white;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,61 @@
+.donation-table-wrap {
+  max-width: 100%;
+  margin: 20px 0;
+
+  @include breakpoint(large) {
+    margin: 40px 0;
+  }
+}
+
+.donation-table-header {
+  background-color: $brand-secondary;
+  padding: rem-calc(10) rem-calc(15);
+  h4 {
+    margin: 0;
+  }
+}
+
+.donation-table {
+  background-color: $light-gray;
+  padding: 0;
+  color: $black;
+  a {
+    color: $text-color;
+    display: block;
+    &:not(:last-of-type) {
+      border-bottom: 1px solid $medium-gray;
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: rem-calc(10) rem-calc(15);
+    transition: all .5s ease;
+
+    &:hover {
+      background-color: darken($light-gray, 6%);
+      color: $black;
+    }
+
+    p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      @include button(false, $brand-fourth, auto, $white, solid);
+      margin: 0 rem-calc(15) 0 0;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+  }
+}
+
+.donate-main-image {
+  .entry-title {
+
+  }
+}

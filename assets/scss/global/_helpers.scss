@@ -1,0 +1,5 @@
+.no-gutter-small {
+  @include breakpoint(small only) {
+    padding: 0;
+  }
+}

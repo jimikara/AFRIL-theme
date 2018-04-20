@@ -1,0 +1,27 @@
+.map-container {
+  border-bottom: rem-calc(20) solid $brand-third;
+  margin-bottom: rem-calc(8);
+}
+
+.contact-table {
+  td {
+    vertical-align: top;
+  }
+}
+
+table {
+  thead {
+    background: none;
+    border-bottom: 1px solid $black;
+  }
+}
+
+.contact-container {
+  h3 {
+    border-bottom: 4px solid $brand-secondary;
+    margin-bottom: rem-calc(15);
+  }
+  input, textarea {
+    border-radius: 3px;
+  }
+}
