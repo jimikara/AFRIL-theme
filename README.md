@@ -1,6 +1,6 @@
 # AFRIL WordPress theme
 
-This is the source code for the WordPress theme for the AFRIL website
+Source code for the WordPress theme for the AFRIL website
 
 This the is built on [Zurb Foundation](https://foundation.zurb.com/sites/docs/) front end framework and the [FoundationPress](https://foundationpress.olefredrik.com/) starter theme.
 
