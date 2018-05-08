@@ -52,6 +52,7 @@
 						</p>
 					</div>
 					<p class="footer__copyright">&copy; <?php echo bloginfo() ." ". date("Y"); ?></p>
+					<p class="credit_link">AFRIL is a registered charity in the UK. <strong>Charity number 1116344</strong></p>
 					<p class="credit_link">Website by <a href="http://jimmysaul.com" target="_blank" rel="noopener">jimmysaul.com</a></p>
 				</div>
 				<div class="small-12 large-6 columns">
